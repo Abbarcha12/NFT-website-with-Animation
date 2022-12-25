@@ -1,5 +1,12 @@
 .transform {
   background-color: #71abf7;
+  height: 500px;
+  background-image: url(../assest/images/bg.png);
+  transform: rotate(180deg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
 }
 .transform img {
   transform: rotate(180deg);
@@ -8,6 +15,8 @@
 }
 .Roadmap {
   background-image: url('../assest/images/section6bg2.jpg');
+  position: relative;
+  top: -10px;
 }
 .Rocket-img {
   display: flex;

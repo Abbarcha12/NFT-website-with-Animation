@@ -2,8 +2,8 @@
   background-color: #71abf7;
   padding: 20px 0px 70px 0px;
   background-image: url(../../assest/images/sec3-bg-bottom.png);
-  background-position: bottom;
-  background-size: contain;
+  background-position: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .gaming_title {

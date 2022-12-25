@@ -8,12 +8,12 @@ import roadmap from "../assest/images/roadmap.png"
 import CheckIcon from '@material-ui/icons//Check';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import Montain from "../assest/images/bg.png"
-import Fade from 'react-reveal/Fade';
+
 function Roadmap() {
     return (
         <div>
-            <div className='transform'>
-                <img src={Montain} alt="Montain" className='img-fluid' />
+            <div className='transform '>
+              
             </div>
             <div className='Roadmap pb-5'>
                 <div className="container">
