@@ -33,7 +33,7 @@ function Tokenomic() {
                         </div>
                     </Fade>
                     <div className='col-xl-6 col-lg-12 col-md-12'>
-                        <div className='tokenomic-list' data-aos="fade-left" ease-in-sine="ease-in" data-aos-delay="200" data-aos-duration="1000" >
+                        <div className='tokenomic-list' data-aos="zoom-out-left" ease-in-sine="ease-in" data-aos-delay="200" data-aos-duration="1000" >
                             <div className='tokenBox-head'>
                                 <h3 className=''>TOKENOMICS</h3>
                             </div>
