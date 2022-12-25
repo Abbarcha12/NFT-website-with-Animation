@@ -20,7 +20,7 @@ function Roadmap() {
                     <div className="row">
                         <div className="col-md-12" >
 
-                            <div className='Rocket-img py-5' >
+                            <div className='Rocket-img py-5 ' >
                                 <img src={Rocket} alt="Rocket" data-aos="zoom-out-left" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600" />
                                 <h2 className='mt-5'>Roadmap</h2>
                             </div>
