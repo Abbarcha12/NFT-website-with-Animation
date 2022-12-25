@@ -10,7 +10,7 @@ import Fade from 'react-reveal/Fade';
 function Tokenomic() {
     return (
         <div>
-            <div className='container' data-aos=" zoom-in-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+            <div className='container' data-aos="zoom-out" data-aos-easing="ease-in-sine" data-aos-duration="1000">
 
                 <div className='row'>
                     <div className='col-md-12' >
