@@ -1,0 +1,139 @@
+.tokenomic-heading h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 4rem;
+  color: #fff;
+  text-shadow: 10px 5px 20px rgba(0, 0, 0, 1);
+  font-weight: bolder;
+  text-shadow: 2px 4px 4px #00000087;
+}
+.tokenomic-heading h2 span {
+  color: #ff1490;
+  text-shadow: 2px 4px 4px #00000087;
+  -webkit-text-stroke: 0.07em #ffffff8f;
+}
+.tokenomic-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokenomic-box {
+  background-image: url('../assest/images/tokenomics-no-head.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 28rem;
+  height: 24rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -1rem;
+}
+.tokenBox-head {
+  background-image: url('../assest/images/tokenHead.png');
+  z-index: 1;
+  width: 20rem;
+  height: 5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tokenBox-head h3 {
+  -webkit-text-stroke: 1px #000000;
+  text-shadow: 0px 4px 0px #000000c4, 0px 26.6667px 53.3333px #3333333d;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+}
+.tokenomic-textBox {
+  width: 22rem;
+  display: flex;
+  border: 2px solid #afadff;
+  display: flex;
+  background-color: #938ff6;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 5px 5px 1px rgba(44, 44, 68, 1);
+  align-items: center;
+}
+.tokenomic-textBox img {
+  height: 2.4rem;
+  width: 2.2rem;
+  margin-left: 1rem;
+}
+.tokenomic-textBox p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin: 0.7rem;
+  line-height: 23px;
+  color: #fff;
+}
+.tokenomic-textBox p span {
+  font-weight: bold;
+}
+.tokenomic-textBox p span a {
+  text-decoration: none;
+  color: #fff;
+}
+.cat-laptop {
+  position: relative;
+}
+.cat-laptop h2 {
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 4px 4px #00000087;
+  font-size: 20px;
+  position: absolute;
+  bottom: 18%;
+  left: 5px;
+}
+@media screen and (max-width: 460px) {
+  .catLaptop {
+    height: 28rem;
+  }
+  .cat-laptop h2 {
+    font-size: 15px;
+    left: -15px;
+  }
+  .tokenomic-heading h2 {
+    font-size: 2.5rem;
+    line-height: 40px;
+  }
+
+  .catLaptop {
+    width: 24rem;
+    height: 26rem;
+  }
+  .tokenomic-list {
+    margin: 3rem;
+  }
+  .tokenBox-head {
+    height: 3rem;
+    width: 15rem;
+  }
+  .tokenBox-head h3 {
+    font-size: 1.8rem;
+  }
+  /* .tokenomic-heading */
+  .tokenomic-box {
+    height: 20rem;
+    width: 24rem;
+  }
+  .tokenomic-textBox img {
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-left: 0.5rem;
+  }
+  .tokenomic-textBox p {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+}

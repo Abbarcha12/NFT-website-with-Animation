@@ -1,0 +1,82 @@
+.game_header img {
+  width: 578px;
+  max-width: 100%;
+}
+.game_header {
+  margin: 0 auto;
+}
+.game-title {
+  background: url(https://kleerun.game/images/joy-stick.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+@media screen and (max-width: 467px) {
+  .game-title h3 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .game-title h3 {
+    font-size: 0.9rem;
+  }
+  .play-btn {
+    display: none;
+  }
+}
+.game-title h3 {
+  font-family: 'PlusJakartaText', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-weight: 700;
+
+  text-shadow: 0px 3px 0px rgb(0 0 0 / 25%);
+  -webkit-text-stroke: 0.4px #72359c;
+}
+.play-btn button {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#aeaeae),
+    to(#e8e8e8)
+  );
+  background: -webkit-linear-gradient(top, #aeaeae 0%, #e8e8e8 100%);
+  background: -o-linear-gradient(top, #aeaeae 0%, #e8e8e8 100%);
+  background: linear-gradient(180deg, #aeaeae 0%, #e8e8e8 100%);
+  -webkit-box-shadow: inset -4.57839e-16px -7.47707px 7.47707px #a6a6a6,
+    inset 4.57839e-16px 7.47707px 7.47707px #f0f0f0;
+  box-shadow: inset -4.57839e-16px -7.47707px 7.47707px #a6a6a6,
+    inset 4.57839e-16px 7.47707px 7.47707px #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #181f31;
+  position: relative;
+  border: 5px solid #7bd0f8;
+}
+.play-container {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.google-img img {
+  height: 120px;
+}
+.video iframe {
+  height: 400px;
+  width: 54rem !important;
+  max-width: 100%;
+  /* margin-top: 10rem; */
+}
+.Vframe {
+  /* margin-top: 10rem; */
+}

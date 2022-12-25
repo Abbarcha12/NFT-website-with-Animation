@@ -1,0 +1,114 @@
+.transform {
+  background-color: #71abf7;
+}
+.transform img {
+  transform: rotate(180deg);
+  position: relative;
+  bottom: -10px;
+}
+.Roadmap {
+  background-image: url('../assest/images/section6bg2.jpg');
+}
+.Rocket-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Rocket-img h2 {
+  font-size: 30px;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Roadmap-headings {
+  display: flex;
+  justify-content: space-between;
+}
+.Roadmap-headings h2 {
+  color: #fff;
+  min-height: 2em;
+  font-size: 1.375rem;
+}
+.Roadmap-headings svg {
+  font-size: 2rem;
+}
+.radmap-lists {
+  display: flex;
+  justify-content: space-between;
+}
+.roadmap-lists-heading {
+  display: none;
+  position: relative;
+}
+.circle-outline {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: #181f31;
+  border: 3px solid #9a2b6d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -1.4rem;
+  top: 5px;
+}
+.circle-outline.left-1 {
+  left: -1.2rem;
+}
+.circle {
+  height: 0px;
+  width: 0px;
+  border: 4px solid #f4178c;
+  border-radius: 50%;
+}
+.radmap-lists h2 {
+  color: #fff;
+  font-size: 1.375rem;
+  position: relative;
+}
+.radmap-lists ul {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 5px;
+  line-height: 1.588;
+  position: relative;
+  padding-left: 1.2em;
+  list-style-type: none;
+}
+.radmap-lists svg {
+  font-size: 1rem;
+}
+svg.dot {
+  font-size: 0.3rem !important;
+}
+@media screen and (max-width: 991px) {
+  .Roadmap-headings h2 {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .roadmap-heading-container {
+    display: none;
+  }
+  .radmap-lists {
+    flex-direction: column;
+    margin-left: 2rem;
+    width: 90%;
+  }
+  .border-left {
+    border-left: 3px dashed #9a2b6d;
+  }
+  .roadmap-lists-heading {
+    display: flex;
+    position: relative;
+    top: -10px;
+  }
+  .radmap-lists ul {
+    position: relative;
+    top: -10px;
+    margin-left: 19px;
+  }
+}

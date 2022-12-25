@@ -1,0 +1,40 @@
+.MainSection {
+  background: url(../assest/images/middlebackground.png) no-repeat;
+  background-size: cover;
+  /* background-position: bottom; */
+  /* height: 100vh; */
+  position: relative;
+  padding-bottom: 5rem;
+}
+.MainSection1 {
+  position: relative;
+  top: -40px;
+}
+.Mmm {
+  display: none;
+}
+.MainSection1 {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .Mmm {
+    display: block;
+  }
+  .MainSection1 {
+    display: block;
+  }
+  .MainSection {
+    display: none;
+  }
+}
+.SliderOne {
+  --tw-bg-opacity: 1;
+  background-color: rgba(24, 31, 49, var(--tw-bg-opacity)) !important;
+}
+.SliderOne h1 {
+  font-size: 2.875rem;
+  color: #fff;
+  font-weight: 700;
+  /* text-align: center; */
+
+}

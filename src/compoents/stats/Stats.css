@@ -1,0 +1,147 @@
+.statsBox {
+  background-image: url('../../assest/images/ListBG.png');
+  height: 40rem;
+  width: auto;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catBg-img {
+  margin-top: 8rem;
+}
+.statsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.statsBox-text {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.RockImg {
+  display: flex;
+  justify-content: end;
+}
+.text-box {
+  border: 2px solid #afadff;
+  width: 87%;
+  display: flex;
+  background-color: #938ff6;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 5px 5px 1px rgba(107, 89, 188, 1);
+}
+.text-box img {
+  height: 2.4rem;
+  width: 2.3rem;
+}
+.text-box p {
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 32px;
+  font-weight: 300;
+}
+.text-box p span {
+  font-weight: bold;
+}
+@media screen and (max-width: 1140px) {
+  .statsBox {
+    height: 60rem;
+  }
+  .catBg-img img {
+    height: 30rem;
+  }
+  .statsBox {
+    height: 30rem;
+  }
+  .text-box img {
+    height: 1.9rem;
+    width: 1.8rem;
+  }
+  .text-box p {
+    font-size: 1.2rem;
+    margin: 3px 0 3px 10px !important;
+    line-height: 26px;
+  }
+  .RockImg img {
+    height: 12rem;
+    margin-top: 7rem !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .statsBox-text {
+    align-items: center;
+  }
+  .margin {
+    margin-top: 1rem !important;
+  }
+  .catBg-img img {
+    height: 23rem;
+  }
+  .text-box img {
+    height: 1.6rem;
+    width: 1.5rem;
+  }
+  .text-box p {
+    font-size: 1rem;
+    margin: 3px 0 3px 10px !important;
+    line-height: 22px;
+  }
+  .statsBox-text {
+    padding-left: 2.4rem;
+    width: 100%;
+  }
+  .text-box {
+    width: 80%;
+    /* margin-left: 2rem; */
+  }
+}
+@media screen and (max-width: 767px) {
+  .statsBox {
+    height: 40rem;
+    width: 40rem;
+    max-width: 100%;
+  }
+  .statsBox-text {
+    padding-top: 2rem;
+    width: 100%;
+  }
+  .catBg-img img {
+    height: 27rem;
+  }
+  .text-box img {
+    height: 2.6rem;
+    width: 2.5rem;
+    margin: 0.5rem;
+  }
+  .text-box p {
+    font-size: 1.5rem;
+    margin: 3px 0 3px 10px !important;
+    line-height: 28px;
+  }
+
+  .RockImg img {
+    height: 15rem;
+    margin-top: 4rem !important;
+  }
+}
+.sats {
+  background-image: url('../../assest//images/stars-bg1.png');
+}
+.img2 {
+  background-image: url('../../assest/images//2.png');
+  height: 300px;
+  background-position: bottom;
+}
+@media screen and (max-width: 576px) {
+  .text-box p {
+    font-size: 1rem;
+  }
+  .text-box img {
+    height: 40px;
+  }
+}

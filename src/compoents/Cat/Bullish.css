@@ -1,0 +1,79 @@
+.car_section {
+  background-color: #71abf7;
+  padding: 20px 0px 70px 0px;
+  background-image: url(../../assest/images/sec3-bg-bottom.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gaming_title {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gaming_title h1 {
+  font-size: 45px !important;
+  color: #fff;
+  text-shadow: 2px 4px 4px #00000087;
+  font-weight: bolder;
+  text-align: center;
+}
+.gaming_title span {
+  color: #ff1490;
+  font-weight: bolder;
+  text-shadow: 2px 4px 4px #00000087;
+  -webkit-text-stroke: 0.07em #ffffff8f;
+}
+.Bullish_section {
+  margin-top: 30px;
+}
+.invest-title {
+  background-image: url(../../assest/images/iif-no-txt.png);
+  background-repeat: no-repeat;
+  background-size: contain !important;
+  background-position: center;
+  max-width: 100%;
+  height: 12rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.invest-title h3 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+.bushi {
+  /* margin-top: 1rem; */
+  text-align: center;
+  font-size: 6rem;
+  color: #d13e8c;
+  text-shadow: 0px 0px 0 #f663b1, 0px 1px 0 #ed5aa8, 0px 2px 0 #e4519f,
+    0px 3px 0 #db4896, 0px 4px 0 #d13e8c, 0px 5px 0 #c83583, 0px 6px 0 #bf2c7a,
+    0px 7px 0 #b62371, 0px 8px 0 #ad1a68, 0px 9px 8px rgb(255 20 145 / 66%),
+    0px 9px 1px rgb(255 20 145 / 50%), 0px 0px 8px rgb(255 20 145 / 20%);
+}
+
+@media only screen and (max-width: 600px) {
+  .gaming_title h1 {
+    font-size: 30px !important;
+    line-height: 50px;
+  }
+  .invest-title h1 {
+    font-size: 60px !important;
+  }
+  .car_section {
+    height: 800px;
+  }
+  .bushi {
+    margin: 0px;
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .invest-title h3 {
+    font-size: 30px;
+  }
+}

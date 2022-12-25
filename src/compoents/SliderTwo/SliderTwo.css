@@ -1,0 +1,30 @@
+.slider_two {
+    background-color: #181F31 !important;
+    width: 100%;
+    height: 300px;
+    margin: 0px !important;
+}
+.slider-content {
+    display: block;
+    width: 80%;
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+}
+.slider-content h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+.slider_pic {
+    position: relative;
+    bottom: 3px;
+    width: 100%;
+}
+.slider_pic img {
+    width: 100%;
+}
+.contiger_img {
+    margin-top: 17px;
+}

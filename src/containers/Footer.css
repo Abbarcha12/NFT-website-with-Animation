@@ -1,0 +1,95 @@
+.footer {
+  background-color: rgba(24, 31, 49);
+}
+.footer-main-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fancy-title {
+  max-width: 100%;
+  width: 60rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3.3rem;
+  text-shadow: 2px 4px 4px rgb(0 0 0 / 53%);
+  -webkit-backdrop-filter: blur(11px);
+  backdrop-filter: blur(11px);
+  color: #fff;
+  margin-bottom: 30px;
+}
+.fancy-title span {
+  color: #ff1490;
+  text-shadow: 2px 4px 4px #00000087;
+  -webkit-text-stroke: 0.07em #ffffff8f;
+}
+
+.sub-heading {
+  background-image: url('../assest/images/iif-no-txt.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.sub-heading h3 {
+  display: inline-block;
+  font-weight: 700;
+  color: #20d7ff;
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: -1px 4px #000000a3;
+}
+.footer-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cuteCat-logo {
+  display: flex;
+  align-items: center;
+}
+.cuteCat-logo span {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
+.footer-icons svg {
+  color: white;
+  font-size: 2.5rem;
+}
+.footer-policies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .footer-main-heading {
+    width: 100%;
+  }
+  .fancy-title {
+    font-size: 2.4rem;
+  }
+  .sub-heading h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 467px) {
+  .fancy-title {
+    font-size: 1.4rem;
+  }
+  .sub-heading h3 {
+    font-size: 1.2rem;
+  }
+}

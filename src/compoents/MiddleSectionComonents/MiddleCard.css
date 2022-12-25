@@ -1,0 +1,73 @@
+.card {
+  background: url(../../assest/images/middlecardbackground.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 440px;
+}
+.cardhead {
+  background: url(../../assest/images/pinkcart.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 15px;
+  font-size: 15px;
+  display: flex;
+  min-width: 70%;
+  left: 16%;
+  top: -35px;
+  max-width: 70%;
+  position: absolute;
+  line-height: 1;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0px 4px 0px #000000c4, 0px 26.6667px 53.3333px #3333333d;
+}
+.cardmiddle {
+  padding: 85px 35px 25px;
+}
+.MiddleCard {
+  margin-top: 20rem !important;
+}
+.plan {
+  display: flex;
+  list-style: none;
+  /* align-items: center; */
+  background: linear-gradient(
+    348.3deg,
+    #8686ef -18.54%,
+    #9f95ff 71.74%
+  ) !important;
+  border: 2px solid #afadff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: px 15px;
+  color: #fff;
+  font-weight: 400;
+  position: relative;
+
+  box-shadow: 5px 4px #00000040, inset 4.16px -4.16px 5px #d6d6d633;
+}
+.plan a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.sharimg {
+  max-width: 36px;
+}
+.payments img {
+  height: 90px !important;
+  width: 350px;
+  position: relative;
+  top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .MiddleCard {
+    margin-top: 0 !important;
+  }
+}
