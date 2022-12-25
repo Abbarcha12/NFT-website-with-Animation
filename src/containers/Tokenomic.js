@@ -11,29 +11,29 @@ function Tokenomic() {
     return (
         <div>
             <div className='container' data-aos=" zoom-in-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">
-                <Fade bottom>
-                    <div className='row'>
-                        <div className='col-md-12' >
-                            <div className='tokenomic-heading '>
-                                <h2>IF YOU BELIEVE IN <span>GAMING</span> AND <span>BLOCKCHAIN</span> THEN YOU BELIEVE
-                                    IN <span>KLEE!</span></h2>
-                            </div>
+
+                <div className='row'>
+                    <div className='col-md-12' >
+                        <div className='tokenomic-heading '>
+                            <h2>IF YOU BELIEVE IN <span>GAMING</span> AND <span>BLOCKCHAIN</span> THEN YOU BELIEVE
+                                IN <span>KLEE!</span></h2>
                         </div>
                     </div>
-                </Fade>
+                </div>
+
             </div>
             <div className='container' >
                 <div className='row mt-5'>
-                    <Fade bottom  >
-                        <div className='col-xl-6 col-lg-12 col-md-12'>
-                            <div className='cat-laptop' data-aos="fade-right" ease-in-sine="ease-in" data-aos-delay="200" data-aos-duration="1000" >
-                                <img src={CatLaptop} className='catLaptop img-fluid' alt="" />
-                                <h2>Join us and become an investor <br /> in the future of gaming!</h2>
-                            </div>
-                        </div>
-                    </Fade>
+
                     <div className='col-xl-6 col-lg-12 col-md-12'>
-                        <div className='tokenomic-list' data-aos="zoom-out-left" ease-in-sine="ease-in" data-aos-delay="200" data-aos-duration="1000" >
+                        <div className='cat-laptop' data-aos="fade-right" ease-in-sine="ease-in" data-aos-delay="200" data-aos-duration="1000" >
+                            <img src={CatLaptop} className='catLaptop img-fluid' alt="" />
+                            <h2>Join us and become an investor <br /> in the future of gaming!</h2>
+                        </div>
+                    </div>
+
+                    <div className='col-xl-6 col-lg-12 col-md-12'>
+                        <div className='tokenomic-list' data-aos="zoom-out-top" ease-in-sine="ease-in" data-aos-delay="200" data-aos-duration="1000" >
                             <div className='tokenBox-head'>
                                 <h3 className=''>TOKENOMICS</h3>
                             </div>
