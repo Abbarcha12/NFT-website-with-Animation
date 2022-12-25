@@ -15,7 +15,7 @@ function Footer() {
     <div className="row">
 
 
-     <div className="col-md-12 px-0" data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600">
+     <div className="col-md-12 px-0" data-aos="zoom-up" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600">
 
       <img src={Img} className="w-100 img-fluid" alt="cartoons" />
 
@@ -35,7 +35,7 @@ function Footer() {
        </div>
       </div>
       <div className="footer-body border-bottom border-secondary mb-5">
-       <div className='cuteCat-logo my-4' data-aos="fade-up" ease-in-sine="ease-in"  data-aos-duration="600">
+       <div className='cuteCat-logo my-4' data-aos="fade-up" ease-in-sine="ease-in" data-aos-duration="600">
         <img src={Cute} alt="cat" />
         <span className='ms-3'>KleeKai</span>
        </div>

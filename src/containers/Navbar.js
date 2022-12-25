@@ -12,7 +12,7 @@ import MiddleSection from './middleSection';
 
 function Navbar() {
  return (
-  <div>
+  <div class="overee">
    <div className='head' >
     <nav class="navbar navbar-expand-xl navbar-dark p-4">
      <div class="container-fluid" data-aos="zoom-out-down" data-aos-duration="600" ease-in-sine="ease-in" data-aos-delay="100" >

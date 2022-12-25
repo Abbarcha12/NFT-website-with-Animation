@@ -26,7 +26,7 @@ const TopSection = () => {
     <div className='play-btn jiggle' data-aos="zoom-in-up" data-aos-duration="600" >
      <button>PLAY KLEERUN</button>
     </div>
-    <div className='google-img jiggle' data-aos="zoom-in-up" data-aos-duration="600"  >
+    <div className='google-img jiggle' data-aos="zoom-in-up" data-aos-duration="700"  >
      <img src='https://kleerun.game/images/google-play-badge.en.png' className='img-fluid' />
     </div>
    </div>
