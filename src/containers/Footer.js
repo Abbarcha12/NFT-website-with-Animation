@@ -15,10 +15,10 @@ function Footer() {
     <div className="row">
 
 
-     <div className="col-md-12 px-0" data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="400" data-aos-duration="1500">
-      <Fade bottom>
-       <img src={Img} className="w-100" alt="cartoons" />
-      </Fade>
+     <div className="col-md-12 px-0" data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="200" data-aos-duration="1000">
+
+      <img src={Img} className="w-100 img-fluid" alt="cartoons" />
+
      </div>
 
     </div>
