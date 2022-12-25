@@ -5,7 +5,7 @@ import './Card.css';
 
 const CardProps = (props) => {
   return (
-    <div className='container ' data-aos="fade-up-left" ease-in-sine="ease-in" data-aos-delay="400" data-aos-duration="2300">
+    <div className='container ' data-aos="fade-up-left" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600">
 
       <a href="">
 

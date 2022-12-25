@@ -15,7 +15,7 @@ function Footer() {
     <div className="row">
 
 
-     <div className="col-md-12 px-0" data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="200" data-aos-duration="1000">
+     <div className="col-md-12 px-0" data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600">
 
       <img src={Img} className="w-100 img-fluid" alt="cartoons" />
 
@@ -30,16 +30,16 @@ function Footer() {
        <div className='footer-main-heading'>
         <h2 className='fancy-title py-5'><span>KLEERUN</span> IS PIONEERING THE <span>BLOCKCHAIN</span> GAMING <span>INDUSTRY!</span></h2>
        </div>
-       <div className='sub-heading mx-auto' data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="400" data-aos-duration="1500">
+       <div className='sub-heading mx-auto' data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600">
         <h3>Invest in the future!</h3>
        </div>
       </div>
       <div className="footer-body border-bottom border-secondary mb-5">
-       <div className='cuteCat-logo my-4' data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="400" data-aos-duration="1100">
+       <div className='cuteCat-logo my-4' data-aos="fade-up" ease-in-sine="ease-in"  data-aos-duration="600">
         <img src={Cute} alt="cat" />
         <span className='ms-3'>KleeKai</span>
        </div>
-       <div className='footer-icons' data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="400" data-aos-duration="1100">
+       <div className='footer-icons' data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600">
         <a href="#">
          <InstagramIcon />
         </a>

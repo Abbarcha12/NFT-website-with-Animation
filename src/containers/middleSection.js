@@ -20,11 +20,11 @@ const MiddleSection = () => {
         <div className="container">
           <div className="row d-flex justify-content-center ">
 
-            <div className="col-lg-5 col-md-6 col-sm-12 col-xs-2 MiddleCard " data-aos="fade-right" ease-in-sine="ease-in" data-aos-delay="300" data-aos-duration="800" >
+            <div className="col-lg-5 col-md-6 col-sm-12 col-xs-2 MiddleCard " data-aos="fade-right" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600" >
               <MiddleCard title="BUY WITH CRYPTOCURRENCY"
                 dec="* Decentralized exchanges below. Ethereum GAS fees are to be expected" />
             </div>
-            <div className="col-lg-5 col-md-6 col-sm-12 col-xs-2 MiddleCard" data-aos="fade-left" ease-in-sine="ease-in" data-aos-delay="300" data-aos-duration="800" ><MiddleCardOne title="Buy with fiat / credit card" dec="* Transaction fees will apply. KYC verification required. Not validated in all countries" /></div>
+            <div className="col-lg-5 col-md-6 col-sm-12 col-xs-2 MiddleCard" data-aos="fade-left" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600" ><MiddleCardOne title="Buy with fiat / credit card" dec="* Transaction fees will apply. KYC verification required. Not validated in all countries" /></div>
           </div>
         </div>
 

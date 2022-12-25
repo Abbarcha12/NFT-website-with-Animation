@@ -11,7 +11,7 @@ import Fade from 'react-reveal/Fade';
 function SliderThree() {
  return (
   <>
-   <div classID="ourteam" className="slider_three " data-aos="fade-up-right" ease-in-sine="ease-in-out" data-aos-delay="300" data-aos-duration="1000" >
+   <div classID="ourteam" className="slider_three " data-aos="fade-up-right" ease-in-sine="ease-in-out" data-aos-delay="100" data-aos-duration="600" >
     <div className="slider-content1">
      <h1 className="pb-4 text-blod text-center" >Our team</h1>
 
