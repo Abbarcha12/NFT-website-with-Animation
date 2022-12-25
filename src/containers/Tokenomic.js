@@ -10,7 +10,7 @@ import Fade from 'react-reveal/Fade';
 function Tokenomic() {
     return (
         <div>
-            <div className='container' data-aos="zoom-out" data-aos-easing="ease-in-sine" data-aos-duration="600">
+            <div className='container' data-aos="zoom-out" data-aos-easing="ease-in-sine" >
 
                 <div className='row'>
                     <div className='col-md-12' >
@@ -26,14 +26,14 @@ function Tokenomic() {
                 <div className='row mt-5'>
 
                     <div className='col-xl-6 col-lg-12 col-md-12'>
-                        <div className='cat-laptop' data-aos="fade-right" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600" >
+                        <div className='cat-laptop' data-aos="fade-right" ease-in-sine="ease-in" >
                             <img src={CatLaptop} className='catLaptop img-fluid' alt="" />
                             <h2>Join us and become an investor <br /> in the future of gaming!</h2>
                         </div>
                     </div>
 
                     <div className='col-xl-6 col-lg-12 col-md-12'>
-                        <div className='tokenomic-list' data-aos="zoom-out-top" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600" >
+                        <div className='tokenomic-list' data-aos="fade-left" ease-in-sine="ease-in"  >
                             <div className='tokenBox-head'>
                                 <h3 className=''>TOKENOMICS</h3>
                             </div>

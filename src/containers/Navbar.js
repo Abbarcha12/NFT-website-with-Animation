@@ -15,7 +15,7 @@ function Navbar() {
   <div class="overee">
    <div className='head' >
     <nav class="navbar navbar-expand-xl navbar-dark p-4">
-     <div class="container-fluid" data-aos="zoom-out-down" data-aos-duration="600" ease-in-sine="ease-in" data-aos-delay="100" >
+     <div class="container-fluid" data-aos="zoom-out-down" ease-in-sine="ease-in" >
       <a class="navbar-brand" href="javascript:void(0)" >
        <img src='https://kleerun.game/images/logo-dark.png' />
       </a>

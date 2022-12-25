@@ -15,7 +15,7 @@ function Footer() {
     <div className="row">
 
 
-     <div className="col-md-12 px-0" data-aos="zoom-up" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600">
+     <div className="col-md-12 px-0" data-aos="fade-up" ease-in-sine="ease-in" data-aos-delay="100" data-aos-duration="600">
 
       <img src={Img} className="w-100 img-fluid" alt="cartoons" />
 
